@@ -10,5 +10,5 @@ extends Resource
 @export var isNavigable: bool = false
 @export var recipes: Array[RecipeData]
 
-func get_class():
+func get_class_name():
 	return 'BuildingData'
